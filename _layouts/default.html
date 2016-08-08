@@ -2,20 +2,21 @@
   <head>
     <meta charset="utf-8">
     <title>Festival Mídia Tática Brasil</title>
+    <link href="{{site.baseurl}}css/tactical.css" rel="stylesheet"
   </head>
   <body>
     <header>
-      <strong> Festival Mídia Tática Brasil </strong>
+      <h1> Festival Mídia Tática Brasil </h1>
 
-      <nav>
+      {% include nav.html %}
 
-          <ul>
-            <li><a href="{{site.baseurl}}/index.html">Home</a></li>
-            <li><a href="{{site.baseurl}}/news.html">News</a></li>
-          </ul>
-
-        </nav>
     </header>
 {{content}}
+
+<footer>
+<small> projeto em desenvolvimento | contato@midiatatica.info </small>
+</footer>
+
+
   </body>
 </html>
