@@ -1,0 +1,3 @@
+markdown: redcarpet
+baseurl: /MTB
+exclude: ['README.md']
