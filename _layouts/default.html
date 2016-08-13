@@ -2,45 +2,19 @@
   <head>
     <meta charset="utf-8">
     <title>Festival Mídia Tática Brasil</title>
-    <link href="{{site.baseurl}}/css/tactical.css" rel="stylesheet"
+    <link href="{{site.baseurl}}css/tactical.css" rel="stylesheet"
   </head>
   <body>
+    <header>
+      <h1> Festival Mídia Tática Brasil </h1>
 
-    <div class="nav-bar">
-			<div class="container">
+      {% include nav.html %}
 
-				<ul class="nav">
-					<li><a href="#">Home</a></li>
-					<li>-|Arquivo Tático, reinventeceduras</li>
-
-				</ul>
-			</div>
-		</div>
-
-    <div class="content">
-			<div class="container">
-				<div class="main">
-					<h1>Midia Tatica Brasil</h1>
-	<hr>
-  {{content}}
-  <hr>
-
-
-</div>
-<div class="aside">
-  <p><a href="{{site.baseurl}}/index.html"><img src="/img/logo.gif" /></a></p>
-{% include nav.html %}
-</div>
-
-</div>
-</div>
-
+    </header>
+{{content}}
 
 <footer>
-<div class="footer">
-<div class="container">
-
-<code> Copyleft 2016 -|Essas imagens, trabalhos e idéias não tem donx </code>
+<small> projeto em desenvolvimento | contato@midiatatica.info </small>
 </footer>
 
 
