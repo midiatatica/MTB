@@ -1,0 +1,14 @@
+---
+layout: default
+---
+
+
+
+<ul>
+  {% for content in site.posts %}
+  <li>
+    <a href="{{site.baseurl}}{{content.url}}">{{content.title}}</a>
+  </li>
+
+  {% endfor %}
+</ul>

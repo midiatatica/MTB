@@ -1,215 +1,272 @@
-.book
+/* -----------------------
+Base styles
+------------------------*/
+
+body
 {
-FONT-SIZE: 9px;
-COLOR: #000000;
+	margin: 0;
+	padding: 0;
+	color: #333;
+	background-color: #eee;
+	font: 1em Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
-.book:hover
+
+h1,h2,h3,h4,h5,h6
 {
-background-color: #FFFFFF;
-TEXT-DECORATION: none;
+	margin: 0 0 .2em;
+	font-weight: 500;
+	line-height: 1.15;
 }
 
+h1 { font-size: 2.25em; } /* 36px */
+h2 { font-size: 1.75em; } /* 28px */
+h3 { font-size: 1.375em; } /* 22px */
+h4 { font-size: 1.125em; } /* 18px */
+h5 { font-size: 1em; } /* 16px */
+h6 { font-size: .875em; } /* 14px */
 
-.col
+p
 {
-FONT-SIZE: 10px;
-COLOR: #000000;
-; font-weight: bold
+	margin: 0 0 1.5em;
+	line-height: 1.25;
 }
-.col:hover
+
+blockquote
 {
-background-color: #FFFFFF;
-TEXT-DECORATION: none;
+	padding: 1em 2em;
+	margin: 0 0 2em;
+	border-left: 5px solid #eee;
 }
 
-
-.menu
+hr
 {
-FONT-SIZE: 10px;
-COLOR: #000000;
-; font-weight: bold
+	height: 0;
+	margin-top: 1em;
+	margin-bottom: 2em;
+	border: 0;
+	border-top: 1px solid #ddd;
 }
-.menu:hover
+
+table
 {
-background-color: #E7E7E7;
-TEXT-DECORATION: none;
+	background-color: transparent;
+	border-spacing: 0;
+	border-collapse: collapse;
+	border-top: 1px solid #ddd;
 }
 
-
-.data
+th, td
 {
-    FONT-FAMILY: Arial, Helvetica, sans-serif;
-    FONT-SIZE: 10px
-; font-weight: bold
-; color: #666666
-; font-variant: small-caps
+	padding: .5em 1em;
+	vertical-align: top;
+	text-align: left;
+	border-bottom: 1px solid #ddd;
 }
 
+a:link { color: royalblue; }
+a:visited { color: purple; }
+a:focus { color: black; }
+a:hover { color: green; }
+a:active { color: red; }
 
-A:active
+/* -----------------------
+Layout styles
+------------------------*/
+
+.container
 {
-    COLOR: #666666;
-    TEXT-DECORATION: none
+	max-width: 70em;
+	margin: 0 auto;
 }
-A
+
+
+.nav-bar
 {
-color: #666666;
-text-decoration: none
+	background: #000;
+	padding: 0;
 }
 
-A:hover
+.content
 {
-    COLOR: #6E6E6E;
-    TEXT-DECORATION: underline
+	overflow: hidden;
+	padding: 1em 1.25em;
+	background-color: #fff;
 }
-A:link
+
+.main, .aside
 {
-    COLOR: #666666;
-    TEXT-DECORATION: none
+	margin-bottom: 1em;
 }
 
-
-
-BODY
+.footer
 {
-    COLOR: #000000;
-    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
-    FONT-SIZE: 11px
+	color: #fff;
+	background: #000;
+	padding: 1em 1.25em;
 }
-P
+
+/* -----------------------
+Nav
+------------------------*/
+
+.nav
 {
-    COLOR: #000000;
-    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
-    FONT-SIZE: 11px
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font: 0.95em "Courier New", Courier, monospace;
+	color: #fff;
+
 }
-TABLE
+
+.nav li
 {
-    COLOR: #000000;
-    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
-    FONT-SIZE: 11px
+	display: inline;
+	margin: 0;
 }
-TR
+
+.nav a
 {
-    COLOR: #000000;
-    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
-    FONT-SIZE: 11px
+	display: block;
+	padding: .7em 1.25em;
+	color: #fff;
+	text-decoration: none;
+	border-bottom: 1px solid gray;
 }
-TD
+
+.nav a:link { color: white; }
+.nav a:visited { color: white; }
+
+.nav a:focus
 {
-    COLOR: #000000;
-    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
-    FONT-SIZE: 11px
+	color: black;
+	background-color: white;
 }
 
-.book
+.nav a:hover
 {
-FONT-SIZE: 10px;
-COLOR: #000000;
+	color: white;
+	background-color: red;
 }
-.book:hover
+
+.nav a:active
 {
-background-color: #66CC00;
-TEXT-DECORATION: none;
-}
-.txt1
-{
-FONT-SIZE: 11px;
-COLOR: #000000;
-FONT-FAMILY: Tahoma, Verdana, Geneva, Arial, Helvetica, sans-serif;
-TEXT-DECORATION: none
-}
-.txt1:hover
-{
-TEXT-DECORATION: none
-}
-
-
-
-.titulo
-{
-    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
-    FONT-SIZE: 13px;
-    FONT-WEIGHT: bold;
-; color: #000000
-}
-
-
-.submenu
-{
-font-family: Arial, Helvetica, sans-serif;
-font-size: 10px;
-font-weight: bold;
-color: #999999
-}
-
-
-.data
-{
-    FONT-FAMILY: Arial, Helvetica, sans-serif;
-    FONT-SIZE: 10px
-; font-weight: bold
-; color: #666666
-; font-variant: small-caps
-}
-
-.links {
-COLOR: #616542; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
-FONT-SIZE: 7.5pt;
-TEXT-DECORATION: none;
-background-color: #484830
-}
-
-
-.select {
-	COLOR: #000000;
-	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
-	FONT-SIZE: 7.5pt;
-	TEXT-DECORATION: none
-}
-
-
-A:link {
-	COLOR: #fe2a04
-}
-A:active {
-	COLOR: #000000
-}
-A:visited {
-	COLOR: #666666
-}
-A:hover {
-	BACKGROUND-COLOR: #fe2a04; COLOR: #ffffff
+	color: white;
+	background-color: red;
 }
 
 
 
-BODY
+
+
+/* -----------------------
+Single styles
+------------------------*/
+
+.img-responsive { max-width: 100%; }
+
+.btn
 {
-    COLOR: #000000;
-    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
-    FONT-SIZE: 10px
+	color: #fff !important;
+	background-color: royalblue;
+	border-color: #222;
+	display: inline-block;
+	padding: .5em 1em;
+	margin-bottom: 0;
+	font-weight: 400;
+	line-height: 1.2;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	cursor: pointer;
+	border: 1px solid transparent;
+	border-radius: .2em;
+	text-decoration: none;
 }
-P
+
+.btn:hover
 {
-    COLOR: #000000;
-    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
-    FONT-SIZE: 10px
+	color: #fff !important;
+	background-color: green;
 }
-TABLE
+
+.btn:focus
 {
-    COLOR: #000000;
-    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
-    FONT-SIZE: 10px
+	color: #fff !important;
+	background-color: black;
 }
-TR
+
+.btn:active
 {
-    COLOR: #000000;
-    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
-    FONT-SIZE: 10px
+	color: #fff !important;
+	background-color: red;
 }
-TD
+
+.table
 {
-    COLOR: #000000;
-    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
-    FONT-SIZE: 10px
+	width: 100%;
+	max-width: 100%;
+	margin-bottom: 20px;
 }
+
+.list-unstyled
+{
+	padding-left: 0;
+	list-style: none;
+}
+
+.list-inline
+{
+	padding-left: 0;
+	margin-left: -5px;
+	list-style: none;
+}
+
+.list-inline > li
+{
+	display: inline-block;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+
+/* -----------------------
+Wide styles
+------------------------*/
+
+@media (min-width: 55em)
+{
+	.header { padding: 1.5em 3em; }
+	.nav-bar { padding: 1em 3em; }
+	.content { padding: 2em 3em; }
+
+
+	.main
+	{
+		float: right;
+		width: 65%;
+		margin-right: 5%;
+		margin-bottom: 1em;
+	}
+
+	.aside
+	{
+		float: right;
+		width: 30%;
+		margin-bottom: 1em;
+
+	}
+
+	.footer { padding: 2em 3em; }
+
+	.nav li
+	{
+		display: inline;
+		margin: 0 1em 0 0;
+	}
+
+	.nav a
+	{
+		display: inline;
+		padding: 0;
+		border-bottom: 0;
+	}
