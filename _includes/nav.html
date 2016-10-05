@@ -2,12 +2,13 @@
 
 
 
-    <h3>Menu de Navegação</h3>
+
 
   <ul>
     {% for content in site.posts %}
 
-    <li> <a href="{{site.baseurl}}{{content.url}}">{{content.title}}</a></li>
+    <li> <a href="{{site.baseurl}}{{content.url}}">{{content.title}}</a><br>
+      
 
     {% endfor %}
   </ul>
