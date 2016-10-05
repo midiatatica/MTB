@@ -6,7 +6,7 @@ category: content
 
 Vídeos, áudios  
 
-Abertura MTB Parte I http://www.youtube.com/watch?v=UhGLFaE9jjE Parte 2 https://www.youtube.com/watch?v=4k5sslRUMjI 
++ Abertura MTB Parte I http://www.youtube.com/watch?v=UhGLFaE9jjE Parte 2 https://www.youtube.com/watch?v=4k5sslRUMjI 
 + Barraco da Globo http://prod.midiaindependente.org/pt/blue/2003/03/249719.shtml 
 + [SP] Bicicletada no Mídia Tática http://prod.midiaindependente.org/pt/blue/2003/03/250049.shtml 
 + [SP] Delegado no Mídia Tática http://prod.midiaindependente.org/pt/blue/2003/03/250008.shtml 
